@@ -1,0 +1,44 @@
+body {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#pagebox {
+    display: inline-block;
+    max-width: 80%;
+    max-height: 80%;
+    /* background-color: aquamarine; */
+    align-content: center;
+    justify-content: center;
+    /* margin: 30%; */
+}
+
+.main_heading {
+    font-size: x-large;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: bisque;
+}
+    
+.main_flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.main_img img {
+    height: auto;
+    width: auto;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+.sub_flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_flexbox img {
+    height: 40%;
+    width: 40%;
+}
